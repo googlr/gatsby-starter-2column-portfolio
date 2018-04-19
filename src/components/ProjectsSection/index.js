@@ -2,9 +2,12 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import spotifyQuizLogo from '../../assets/images/projects/spotify-quiz.png'
-import littleNomadLogo from '../../assets/images/projects/little-nomad.png'
-import walkthroughViewGif from '../../assets/images/projects/wvwalkthroughview-optimize.gif'
+import ravenLogo from '../../assets/images/projects/raven-logo.png'
+import nypdLogo from '../../assets/images/projects/nypd-logo.png'
+import smartBrainLogo from '../../assets/images/projects/smart-brain-logo.jpg'
+import bitcoinLogo from '../../assets/images/projects/bitcoin-logo.png'
+import kickstarterLogo from '../../assets/images/projects/kickstarter-logo.png'
+
 
 class ProjectsSection extends React.Component {
   render() {
@@ -12,31 +15,49 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
-            logo={littleNomadLogo}
+            logo={ravenLogo}
             colour="#FFFFFF"
-            title="Little Nomad"
-            link="https://www.littlenomad.co/"
-            timeperiod="2017 - ???"
-            subtitle="A platform for socially aware travellers. Runs on
-              React+Redux with a Ruby on Rails backend."
+            title="Raven"
+            link=""
+            timeperiod="Apr 2017 - Now"
+            subtitle="Raven is an distributed online news and social 
+              networking service on which users post and interact with messages."
           />
           <ExperienceUnit
-            logo={spotifyQuizLogo}
-            colour="#20DC6B"
-            title="Music Quiz for Spotify"
-            link="https://quiz.praagya.com/"
-            timeperiod="2017"
-            subtitle="A fun quiz which tests your knowledge of music that
-              you've saved. Built using React/Redux."
+            logo={nypdLogo}
+            colour="#FFFFFF"
+            title="NYC-At-Large"
+            link="https://github.com/googlr/NYC-At-Large"
+            timeperiod="Dec 2017 - Feb 2018"
+            subtitle="A comprehensive analysis on NYPD Complaint Data Historic 
+              from NYC Open Data."
           />
           <ExperienceUnit
-            logo={walkthroughViewGif}
-            colour="#312F31"
-            title="WalkthroughView"
-            link="https://github.com/praagyajoshi/WVWalkthroughView"
-            timeperiod="2016"
-            subtitle="A drop in utility to help onboard a new user/feature.
-              Written in Objective C."
+            logo={smartBrainLogo}
+            colour="#FFFFFF"
+            title="The Magic Brain"
+            link=""
+            timeperiod="Feb 2018 - Apr 2018"
+            subtitle="A responsive web application that providing face 
+              recognition services with user uploaded photos."
+          />
+          <ExperienceUnit
+            logo={bitcoinLogo}
+            colour="#FFFFFF"
+            title="The CoinHolder"
+            link=""
+            timeperiod="Apr 2018 - Now"
+            subtitle="A Neural Network Method for Analysis and Prediction of 
+              Bitcoin Price Trends."
+          />
+          <ExperienceUnit
+            logo={kickstarterLogo}
+            colour="#FFFFFF"
+            title="KickFounder"
+            link="https://github.com/googlr/KickFounder"
+            timeperiod="Apr 2017 - May 2017"
+            subtitle="A database-backed website with LAMP stack for 
+              crowdfunding services."
           />
         </div>
       </Section>

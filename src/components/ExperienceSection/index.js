@@ -39,6 +39,15 @@ class ExperienceSection extends React.Component {
             subtitle='Worked as a Product Engineer on email processing,
               push notifications, SLAs amongst other things.'
           />
+          <ExperienceUnit
+            logo={kayakoLogo}
+            colour='#403949'
+            title='Kayako'
+            link='https://www.kayako.com/'
+            timeperiod='2017 - 2018'
+            subtitle='Worked as a Product Engineer on email processing,
+              push notifications, SLAs amongst other things.'
+          />
         </div>
       </Section>
     )
