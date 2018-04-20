@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{100:function(t,e){t.exports={data:{site:{siteMetadata:{title:"James",description:"Software Engineer",url:"https://googlr.github.io/",keywords:"java, go, portfolio, personal website"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----7c40c752fb931e9777fc.js.map
