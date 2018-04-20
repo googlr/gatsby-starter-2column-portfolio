@@ -3,14 +3,14 @@
   "description": "Gatsby 2 Column Portfolio Starter",
   "repository": {
     "type": "git",
-    "url": "https://github.com/praagyajoshi/gatsby-starter-2column-portfolio"
+    "url": "https://github.com/googlr/portfolio"
   },
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -b master -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",
