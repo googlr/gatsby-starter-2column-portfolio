@@ -17,6 +17,7 @@ const IndexPage = () => (
         <h3>
           Welcome to my portfolio.
         </h3>
+        Take a look at my <a href="https://googlr.github.io/blog">blog.</a>
 
         <EducationSection />
         <ProjectsSection />
