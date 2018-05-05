@@ -33,6 +33,15 @@ class ProjectsSection extends React.Component {
               from NYC Open Data."
           />
           <ExperienceUnit
+            logo={kickstarterLogo}
+            colour="#FFFFFF"
+            title="KickFounder"
+            link="https://github.com/googlr/KickFounder"
+            timeperiod="Apr 2017 - May 2017"
+            subtitle="A database-backed website with LAMP stack for 
+              crowdfunding services."
+          />
+          <ExperienceUnit
             logo={smartBrainLogo}
             colour="#FFFFFF"
             title="The Magic Brain"
@@ -49,15 +58,6 @@ class ProjectsSection extends React.Component {
             timeperiod="Apr 2018 - Now"
             subtitle="A Neural Network Method for Analysis and Prediction of 
               Bitcoin Price Trends."
-          />
-          <ExperienceUnit
-            logo={kickstarterLogo}
-            colour="#FFFFFF"
-            title="KickFounder"
-            link="https://github.com/googlr/KickFounder"
-            timeperiod="Apr 2017 - May 2017"
-            subtitle="A database-backed website with LAMP stack for 
-              crowdfunding services."
           />
         </div>
       </Section>
