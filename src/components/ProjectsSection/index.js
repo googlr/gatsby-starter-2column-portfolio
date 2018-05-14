@@ -18,7 +18,7 @@ class ProjectsSection extends React.Component {
             logo={ravenLogo}
             colour="#FFFFFF"
             title="Raven"
-            link=""
+            link="https://github.com/googlr/raven"
             timeperiod="Apr 2017 - Now"
             subtitle="Raven is an distributed online news and social 
               networking service on which users post and interact with messages."
@@ -54,7 +54,7 @@ class ProjectsSection extends React.Component {
             logo={bitcoinLogo}
             colour="#FFFFFF"
             title="The CoinHolder"
-            link=""
+            link="https://github.com/WLSK801/CNN-LSTM"
             timeperiod="Apr 2018 - Now"
             subtitle="A Neural Network Method for Analysis and Prediction of 
               Bitcoin Price Trends."
