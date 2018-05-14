@@ -20,7 +20,10 @@ class ProjectsSection extends React.Component {
             title="Raven"
             link="https://github.com/googlr/raven"
             timeperiod="Apr 2017 - Now"
-            subtitle="Raven (just like the raven messengers on Westeros in Game of Throne), which is a distributed news and social networking service on which users post and interact with messages written in Golang. The front-end is implemented with HTML and Go, while the backend, known as citadel, are multiple servers that replicate changes over the cluster to maintain consistency and availability in unreliable networks."
+            subtitle="Raven is a distributed social networking service on which users post 
+            and interact with messages written in Golang.  
+            while the backend are multiple servers that replicate changes over the cluster 
+              to maintain consistency and availability in unreliable networks."
           />
           <ExperienceUnit
             logo={nypdLogo}
