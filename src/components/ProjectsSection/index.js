@@ -20,7 +20,7 @@ class ProjectsSection extends React.Component {
             title="Raven"
             link="https://github.com/googlr/raven"
             timeperiod="Apr 2017 - Now"
-            subtitle="Raven is a Golang distributed social networking service with multiple replicas, on which users post 
+            subtitle="Raven is a distributed social networking service with multiple replicas written in Golang, on which users post 
             and interact with messages."
           />
           <ExperienceUnit
